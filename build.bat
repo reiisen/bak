@@ -13,10 +13,10 @@ cd .\build\Debug || (
 )
 
 :: run exe 
-if exist hello.exe (
-    hello.exe
+if exist main.exe (
+    main.exe
 ) else (
-    echo Executable hello.exe not found in .\build\Debug.
+    echo Executable game.exe not found in .\build\Debug.
     cd %ORIGINAL_DIR%
     exit /b 1
 )
